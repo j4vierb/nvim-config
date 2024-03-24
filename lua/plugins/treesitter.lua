@@ -11,7 +11,8 @@ return {
         "javascript",
         "typescript",
         "c",
-        "angular"
+        "angular",
+        "python"
       },
       sync_install = false,
       highlight = { enable = true },
