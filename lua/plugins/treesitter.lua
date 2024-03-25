@@ -5,6 +5,7 @@ return {
     local configs = require("nvim-treesitter.configs")
 
     configs.setup({
+      auto_install = true,
       ensure_installed = {
         "lua",
         "java",
@@ -14,11 +15,11 @@ return {
         "angular",
         "python",
         "cpp",
-        "latex"
+        "latex",
       },
       sync_install = false,
       highlight = { enable = true },
       indent = { enable = true },
     })
-  end
+  end,
 }
