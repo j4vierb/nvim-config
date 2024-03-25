@@ -12,7 +12,9 @@ return {
         "typescript",
         "c",
         "angular",
-        "python"
+        "python",
+        "cpp",
+        "latex"
       },
       sync_install = false,
       highlight = { enable = true },
